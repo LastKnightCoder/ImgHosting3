@@ -1,0 +1,12 @@
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" x="0" y="0">
+    <animate
+      id="c1"
+      attributeName="width"
+      attributeType="XML"
+      from="100" to="400"
+      begin="0s" dur="1.5s"
+      repeatCount="2"
+      fill="freeze" />
+  </rect>
+</svg>
