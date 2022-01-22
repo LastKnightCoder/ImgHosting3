@@ -1,0 +1,21 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="100" height="100">
+    <animateTransform 
+      id="t1" 
+      attributeName="transform"
+      type="translate"
+      begin="0s" dur="2s"
+      from="0 0" to="100 100"
+      fill="freeze"
+      additive="sum"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      begin="t1.end" dur="2s"
+      from="0" to="90"
+      fill="freeze"
+      additive="sum"
+    />
+  </rect>
+</svg>
